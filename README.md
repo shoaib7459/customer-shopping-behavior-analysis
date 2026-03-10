@@ -217,21 +217,22 @@ WHERE rank = 1;
 ```
 
 ## 📝 Key Insights & Recommendations
-  ## Loyal Customers are Gold
-  - **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
-  - **Action:** Implement VIP program with exclusive perks
-  
-## Clothing Drives Business
- - **Finding:** 44.7% of revenue from clothing
- - **Action:** Expand clothing inventory, featured placements
- 
-## Discount Strategy Needs Review
-  - **Finding:** Discounts don't increase order value ($0.85 difference)
-  - **Action:** Use discounts for acquisition, not upselling
 
-## Seasonal Planning
-  - **Finding:** Fall is peak season ($60K), Summer low ($55.8K)
-  - **Action:** Plan major campaigns in Fall, clearance in Summer
+### 👑 Loyal Customers are Gold
+- **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
+- **Action:** Implement VIP program with exclusive perks
+
+### 👕 Clothing Drives Business
+- **Finding:** 44.7% of revenue from clothing
+- **Action:** Expand clothing inventory, featured placements
+
+### 🏷️ Discount Strategy Needs Review
+- **Finding:** Discounts don't increase order value ($0.85 difference)
+- **Action:** Use discounts for acquisition, not upselling
+
+### 📅 Seasonal Planning
+- **Finding:** Fall is peak season ($60K), Summer low ($55.8K)
+- **Action:** Plan major campaigns in Fall, clearance in Summer
   
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
