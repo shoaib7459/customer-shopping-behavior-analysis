@@ -6,8 +6,8 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-📊 **Live Dashboard:** [View Interactive Dashboard](/dashborad/powerbi_dashboard.pdf)  
-📄 **Full Report:** [Download Project Report PDF](/reports/project_report.pdf)
+📊 **Live Dashboard:** [View Interactive Dashboard](dashborad/powerbi_dashboard.pdf)  
+📄 **Full Report:** [Download Project Report PDF](reports/project_report.pdf)
 
 ---
 
