@@ -154,7 +154,7 @@ WITH top_ranked_items AS (
 )
 SELECT category, item_purchased, total_revenue
 FROM top_ranked_items
-WHERE rank = 1; ```
+WHERE rank = 1; 
 
 
 
