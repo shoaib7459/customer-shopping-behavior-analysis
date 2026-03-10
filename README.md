@@ -54,17 +54,10 @@ customer-behavior-analysis/
 ├── data/
 │ ├── raw/
 │ │ └── customer_shopping_behavior.csv
-│ └── processed/
-│ └── clean_customer_data.csv
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_eda_analysis.ipynb
-│ └── 03_sql_queries.ipynb
-│
-├── sql/
-│ ├── create_tables.sql
-│ └── business_queries.sql
+│ ├── data_cleaning.ipynb
+│ └── sql.ipynb
 │
 ├── dashboard/
 │ └── powerbi_dashboard.pbix
@@ -73,7 +66,6 @@ customer-behavior-analysis/
 │ └── Project_Report.pdf
 │
 ├── src/
-│ ├── init.py
 │ ├── main.py
 │
 ├── logs/
