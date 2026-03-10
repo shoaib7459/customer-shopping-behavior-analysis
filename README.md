@@ -118,7 +118,7 @@ customer-behavior-analysis/
 
 ## 📊 Dashboard Preview
   ### Executive Overview Dashboard
-    ![Executive Overview](images/executive_overview.png)
+  ![Executive Overview](images/executive_overview.png)
   ## 📈 Key Insights
    - **Total Revenue:** 233K
    - **Total Customers:** 3900
@@ -126,13 +126,13 @@ customer-behavior-analysis/
   ## Clothing contributes the largest revenue share at 104K, followed by Accessories at 74K.Male customers contribute 68% of total revenue.
 
   ### Customer Analysis Dashboard
-    ![Executive Overview](images/customer_analysis.png)
+  ![Executive Overview](images/customer_analysis.png)
   ## 📈 Key Insights
   ## Loyal customers generate the majority of revenue, contributing 186K, which indicates strong customer retention
   ## Middle-aged customers generate the highest revenue contribution among age groups.
 
   ### Product & Promotion Analysis
-    ![Executive Overview](images/product_promotion.png)
+  ![Executive Overview](images/product_promotion.png)
   ## 📈 Key Insights
   ## Blouse, Shirt, and Dress are among the top revenue-generating products.
   ## Promo codes are used in 43% of orders, but they slightly reduce average order value.
