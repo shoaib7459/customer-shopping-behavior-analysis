@@ -139,7 +139,7 @@ customer-behavior-analysis/
   ## Footwear has the highest customer satisfaction rating.
 
 ## 🗄️ SQL Business Queries
--- Category Revenue Analysis
+```Category Revenue Analysis
 SELECT category, SUM(purchase_amount) AS total_revenue
 FROM clean_customer_data
 GROUP BY category
@@ -154,7 +154,7 @@ WITH top_ranked_items AS (
 )
 SELECT category, item_purchased, total_revenue
 FROM top_ranked_items
-WHERE rank = 1; --
+WHERE rank = 1; ```
 
 
 
