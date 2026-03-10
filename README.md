@@ -128,8 +128,8 @@ customer-behavior-analysis/
   ### Customer Analysis Dashboard
   ![Executive Overview](images/customer_analysis.png)
   ## 📈 Key Insights
-    - Loyal customers generate the majority of revenue, contributing 186K, which indicates strong customer retention
-    - Middle-aged customers generate the highest revenue contribution among age groups.
+   - ## Loyal customers generate the majority of revenue, contributing 186K, which indicates strong customer retention
+   - ## Middle-aged customers generate the highest revenue contribution among age groups.
 
   ### Product & Promotion Analysis
   ![Executive Overview](images/product_promotion.png)
