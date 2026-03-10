@@ -51,6 +51,7 @@ A complete end-to-end data analytics project that transforms raw customer transa
 | **Jupyter Notebook** | Development environment |
 
 ## 📁 Project Structure
+```
 customer-behavior-analysis/
 │
 ├── data/
@@ -85,3 +86,4 @@ customer-behavior-analysis/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
