@@ -159,12 +159,12 @@ WHERE rank = 1;
 
 ## 📝 Key Insights & Recommendations
   ## Loyal Customers are Gold
-  **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
-  **Action:** Implement VIP program with exclusive perks
+  - **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
+  - **Action:** Implement VIP program with exclusive perks
   
 ## Clothing Drives Business
- **Finding:** 44.7% of revenue from clothing
- **Action:** Expand clothing inventory, featured placements
+ - **Finding:** 44.7% of revenue from clothing
+ - **Action:** Expand clothing inventory, featured placements
  
 ## Discount Strategy Needs Review
   **Finding:** Discounts don't increase order value ($0.85 difference)
