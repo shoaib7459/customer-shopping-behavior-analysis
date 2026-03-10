@@ -225,7 +225,7 @@ WHERE rank = 1;
   - **Action:** Use discounts for acquisition, not upselling
 
 ## Seasonal Planning
-  - **Finding:** Fall is peak season ($60K), Summer low ($55.8K)- -
+  - **Finding:** Fall is peak season ($60K), Summer low ($55.8K)
   - **Action:** Plan major campaigns in Fall, clearance in Summer
   
 ## 🤝 Contributing
