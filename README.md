@@ -110,8 +110,8 @@ A Python-based **data pipeline** was developed to automate the data preparation 
 ### Several preprocessing steps were applied to ensure data quality:
  - Standardized column names
  - Handled missing values using:
-  - Median imputation for numeric columns
-  - Mode imputation for categorical columns
+   - Median imputation for numeric columns
+   - Mode imputation for categorical columns
  - Converted data types where necessary
  - Removed inconsistencies in categorical values
 These steps ensure the dataset is analysis-ready.
