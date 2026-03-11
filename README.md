@@ -27,11 +27,13 @@ The project includes a complete data analytics workflow, starting from raw data 
 ---
 ## 🎯 Project Objectives 
 ### The primary objectives of this project are:
- - Understand customer purchasing behavior
-- **Feature Engineering:** Age groups, customer segmentation
-- **Exploratory Data Analysis:** Statistical summaries, correlation analysis, outlier detection
-- **SQL Analytics:** Window functions, CTEs, aggregations, ranking
-- **Data Visualization:** Bar charts, histograms, boxplots, interactive dashboards
+ - Understand **customer purchasing behavior**
+ - Identify **top performing product categories**
+ - Analyze **customer segments and loyalty**
+ - Evaluate **seasonal sales trends**
+ - Measure the impact of **promotions and discounts**
+ - Build a **business dashboard**for decision making
+
 
 ### Features Included
 
