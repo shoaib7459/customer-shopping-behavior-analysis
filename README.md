@@ -33,22 +33,22 @@ This project addresses these challenges by analyzing customer shopping data to i
   - The dataset includes the following features:
   - Customer ID – Unique identifier assigned to each customer
   - Age – Age of the customer
-  Gender – Gender of the customer
-Item Purchased – Specific product purchased by the customer
-Category – Product category such as clothing, footwear, accessories, or outerwear
-Purchase Amount (USD) – Total amount spent by the customer on the purchase
-Location – Customer’s location or region
-Size – Size of the purchased product
-Color – Color of the purchased product
-Season – Season in which the purchase occurred (Spring, Summer, Fall, Winter)
-Review Rating – Customer rating given to the purchased product
-Subscription Status – Indicates whether the customer has an active subscription
-Shipping Type – Type of shipping selected for the order
-Discount Applied – Indicates whether a discount was applied to the purchase
-Promo Code Used – Indicates whether a promotional code was used
-Previous Purchases – Number of previous purchases made by the customer
-Payment Method – Payment method used for the purchase
-Frequency of Purchases – How frequently the customer makes purchases
+  - Gender – Gender of the customer
+  - Item Purchased – Specific product purchased by the customer
+  - Category – Product category such as clothing, footwear, accessories, or outerwear
+  - Purchase Amount (USD) – Total amount spent by the customer on the purchase
+  - Location – Customer’s location or region
+  - Size – Size of the purchased product
+  - Color – Color of the purchased product
+  - Season – Season in which the purchase occurred (Spring, Summer, Fall, Winter)
+  - Review Rating – Customer rating given to the purchased product
+  - Subscription Status – Indicates whether the customer has an active subscription
+  - Shipping Type – Type of shipping selected for the order
+  - Discount Applied – Indicates whether a discount was applied to the purchase
+  - Promo Code Used – Indicates whether a promotional code was used
+  - Previous Purchases – Number of previous purchases made by the customer
+  - Payment Method – Payment method used for the purchase
+  - Frequency of Purchases – How frequently the customer makes purchases
 
 ## 🎯 Key stages of the project include:
   - ✅ Data cleaning and preprocessing 
