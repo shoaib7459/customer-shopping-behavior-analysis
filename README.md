@@ -91,7 +91,7 @@ customer-behavior-analysis/
 │ └── Project_Report.pdf
 │
 ├── script/
-│ ├── main.py
+│ ├── customer_data_pipeline.py
 │
 ├── logs/
 │ └── pipeline.log
