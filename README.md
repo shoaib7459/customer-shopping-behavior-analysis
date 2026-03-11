@@ -89,25 +89,32 @@ customer-behavior-analysis/
 ```
 
 ## 🔄 Data Pipeline Workflow
-```
-A Python-based data pipeline was developed to automate the data preparation process.
-```
+A Python-based **data pipeline** was developed to automate the data preparation process.
 
 ### Key Pipeline Features:
-- ✅ Automated logging for error tracking
-- ✅ Configurable file paths
-- ✅ Modular functions for reusability
-- ✅ Error handling at each stage
-- ✅ Database integration
-
+- ✅ Load raw dataset from CSV
+- ✅ Clean and standardize column names
+- ✅ Perform feature engineering
+- ✅ Segment customers based on purchase history
+- ✅ Store the cleaned dataset into a MySQL database
+- ✅ Log pipeline execution for monitoring
+### Pipeline technologies:
+ - Python
+ - Pandas
+ - MYSQL
+ - Logging
+   
 ---
 
-## 📈 Key Findings
-
-### Revenue by Category
-- **Clothing** dominates with **$104,264** (44.7% of total revenue)
-- **Accessories** follows at **$74,200** (31.8%)
-- **Footwear** and **Outerwear** contribute remaining 23.5%
+## 🧹 Data Cleaning
+### Several preprocessing steps were applied to ensure data quality:
+ - Standardized column names
+ - Handled missing values using:
+  - Median imputation for numeric columns
+  - Mode imputation for categorical columns
+ - Converted data types where necessary
+ - Removed inconsistencies in categorical values
+These steps ensure the dataset is analysis-ready.
 
 ### Customer Segmentation
 | Segment | Count | % of Total |
