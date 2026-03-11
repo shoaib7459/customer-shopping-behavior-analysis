@@ -16,8 +16,8 @@ The project includes a complete data analytics workflow, starting from raw data 
 ---
 
 ## 🎯 Key stages of the project include:
- - ✅ Data cleaning and preprocessing 
- - ✅ Feature engineering 
+  ✅ Data cleaning and preprocessing 
+  ✅ Feature engineering 
  - ✅ Automated data pipeline using Python  
 ✅ SQL analysis for business insights 
 ✅ Exploratory Data Analysis (EDA)
