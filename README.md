@@ -52,29 +52,6 @@ The following tools and technologies were used in this project:
      
 ---
 
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| **Python** | Data cleaning, preprocessing, EDA |
-| **Pandas/NumPy** | Data manipulation |
-| **Matplotlib/Seaborn** | Data visualization |
-| **MySQL** | Data storage and querying |
-| **Power BI** | Interactive dashboard |
-| **Jupyter Notebook** | Development environment |
-
----
-
-## 🔧 Techniques Used
-
-- **Data Cleaning:** Handling missing values, standardizing columns, removing duplicates
-- **Feature Engineering:** Age groups, customer segmentation
-- **Exploratory Data Analysis:** Statistical summaries, correlation analysis, outlier detection
-- **SQL Analytics:** Window functions, CTEs, aggregations, ranking
-- **Data Visualization:** Bar charts, histograms, boxplots, interactive dashboards
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -113,7 +90,7 @@ customer-behavior-analysis/
 
 ## 🔄 Data Pipeline Workflow
 ```
-Raw CSV → Data Cleaning → Feature Engineering → MySQL Database → Analysis & Dashboard
+A Python-based data pipeline was developed to automate the data preparation process.
 ```
 
 ### Key Pipeline Features:
