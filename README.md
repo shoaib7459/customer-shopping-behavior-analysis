@@ -19,7 +19,7 @@ The project includes a complete data analytics workflow, starting from raw data 
 
 ---
 
-## 🧩 Business Problem'
+## 🧩 Business Problem
 
 ### Retail businesses collect large amounts of customer transaction data, but this data is often underutilized. Without proper analysis, companies struggle to understand:
   - Which products generate the most revenue
