@@ -1,4 +1,4 @@
-# Customer Shopping Behavior Analysis for Retail Growth
+#  Customer Shopping Behavior Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
