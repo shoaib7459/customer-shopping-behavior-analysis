@@ -30,26 +30,10 @@ This project addresses these challenges by analyzing customer shopping data to i
 
 ## 📊 Dataset Description
 ### The dataset used in this project contains customer shopping transaction data, including demographic information, product purchase details, and customer behavior patterns. It allows analysis of purchasing trends, customer segments, and product performance.
-  - The dataset includes the following features:
-  - Customer ID – Unique identifier assigned to each customer
-  - Age – Age of the customer
-  - Gender – Gender of the customer
-  - Item Purchased – Specific product purchased by the customer
-  - Category – Product category such as clothing, footwear, accessories, or outerwear
-  - Purchase Amount (USD) – Total amount spent by the customer on the purchase
-  - Location – Customer’s location or region
-  - Size – Size of the purchased product
-  - Color – Color of the purchased product
-  - Season – Season in which the purchase occurred (Spring, Summer, Fall, Winter)
-  - Review Rating – Customer rating given to the purchased product
-  - Subscription Status – Indicates whether the customer has an active subscription
-  - Shipping Type – Type of shipping selected for the order
-  - Discount Applied – Indicates whether a discount was applied to the purchase
-  - Promo Code Used – Indicates whether a promotional code was used
-  - Previous Purchases – Number of previous purchases made by the customer
-  - Payment Method – Payment method used for the purchase
-  - Frequency of Purchases – How frequently the customer makes purchases
-
+  ## Key Features:
+    Customer demographics (Age, Gender, Location, Subscription Status)
+    Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color)
+    Shopping behavior (Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating, Shipping Type)
 ## 🎯 Key stages of the project include:
   - ✅ Data cleaning and preprocessing 
   - ✅ Feature engineering 
