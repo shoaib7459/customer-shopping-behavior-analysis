@@ -151,17 +151,33 @@ Exploratory analysis was performed using Python and visualization libraries to i
 
 ---
 
-## 📊 Results Summary
+## 🗃 SQL Analysis
+SQL queries were written to perform additional analysis on the cleaned dataset stored in MySQL.
+### Examples of SQL analysis include:
+  - Top revenue generating products
+  - Revenue by customer segment
+  - Category performance analysis
+  - City-wise revenue ranking
+ - Purchase frequency analysis
+SQL window functions and aggregations were used to derive insights.
+```sql
+-- Category Revenue Analysis
+SELECT category, SUM(purchase_amount) AS total_revenue
+FROM clean_customer_data
+GROUP BY category
+ORDER BY total_revenue DESC;
 
-| Metric | Value |
-|--------|-------|
-| Total Revenue | $233,000 |
-| Total Customers | 3,900 |
-| Average Order Value | $59.76 |
-| Loyal Customers | 79.9% |
-| Top Category | Clothing ($104K) |
-| Peak Season | Fall ($60K) |
-| Gender Split | 68% Male / 32% Female |
+-- Top Products by Category
+WITH top_ranked_items AS (
+    SELECT category, item_purchased, SUM(purchase_amount) AS total_revenue,
+           RANK() OVER (PARTITION BY category ORDER BY SUM(purchase_amount) DESC) AS rank
+    FROM clean_customer_data
+    GROUP BY category, item_purchased
+)
+SELECT category, item_purchased, total_revenue
+FROM top_ranked_items
+WHERE rank = 1;
+```
 
 ---
 
