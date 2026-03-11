@@ -1,0 +1,78 @@
+2026-03-11 14:18:14,486 | INFO | ========================================
+2026-03-11 14:18:14,486 | INFO | DATA PIPELINE STARTED
+2026-03-11 14:18:14,486 | INFO | ========================================
+2026-03-11 14:18:14,486 | INFO | Loading Raw Data
+2026-03-11 14:18:14,515 | INFO | Data loaded successfully | Shape: (3900, 18)
+2026-03-11 14:18:14,515 | INFO | ========================================
+2026-03-11 14:18:14,515 | INFO | Initial Data Preview
+2026-03-11 14:18:14,515 | INFO | ========================================
+2026-03-11 14:18:14,527 | INFO | Initial Preview:    Customer ID  Age Gender Item Purchased  ... Promo Code Used  Previous Purchases Payment Method Frequency of Purchases
+0            1   55   Male         Blouse  ...             Yes                  14          Venmo            Fortnightly
+1            2   19   Male        Sweater  ...             Yes                   2           Cash            Fortnightly
+2            3   50   Male          Jeans  ...             Yes                  23    Credit Card                 Weekly
+3            4   21   Male        Sandals  ...             Yes                  49         PayPal                 Weekly
+4            5   45   Male         Blouse  ...             Yes                  31         PayPal               Annually
+5            6   46   Male       Sneakers  ...             Yes                  14          Venmo                 Weekly
+6            7   63   Male          Shirt  ...             Yes                  49           Cash              Quarterly
+7            8   27   Male         Shorts  ...             Yes                  19    Credit Card                 Weekly
+8            9   26   Male           Coat  ...             Yes                   8          Venmo               Annually
+9           10   57   Male        Handbag  ...             Yes                   4           Cash              Quarterly
+
+[10 rows x 18 columns]
+2026-03-11 14:18:14,528 | INFO | Data Cleaning Started
+2026-03-11 14:18:14,528 | INFO | Column cleaning completed
+2026-03-11 14:18:14,529 | INFO | Before: ['Customer ID', 'Age', 'Gender', 'Item Purchased', 'Category', 'Purchase Amount (USD)', 'Location', 'Size', 'Color', 'Season', 'Review Rating', 'Subscription Status', 'Shipping Type', 'Discount Applied', 'Promo Code Used', 'Previous Purchases', 'Payment Method', 'Frequency of Purchases']
+2026-03-11 14:18:14,529 | INFO | After : ['customer_id', 'age', 'gender', 'item_purchased', 'category', 'purchase_amount', 'location', 'size', 'color', 'season', 'review_rating', 'subscription_status', 'shipping_type', 'discount_applied', 'promo_code_used', 'previous_purchases', 'payment_method', 'frequency_of_purchases']
+2026-03-11 14:18:14,531 | INFO | review_rating nulls - Before: 37, After: 0
+2026-03-11 14:18:14,536 | INFO | Missing values handled successfully
+2026-03-11 14:18:14,537 | INFO | Age group feature created successfully
+2026-03-11 14:18:14,538 | INFO | Customer Segmentation feature created successfully
+2026-03-11 14:18:14,540 | INFO | 
+   previous_purchases customer_segmentation
+0                  14                 Loyal
+1                   2             Returning
+2                  23                 Loyal
+3                  49                 Loyal
+4                  31                 Loyal
+2026-03-11 14:18:18,721 | ERROR | Failed to save data: (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-03-11 14:18:18,721 | ERROR | Pipeline failed: (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-03-11 14:19:51,777 | INFO | ========================================
+2026-03-11 14:19:51,777 | INFO | DATA PIPELINE STARTED
+2026-03-11 14:19:51,777 | INFO | ========================================
+2026-03-11 14:19:51,777 | INFO | Loading Raw Data
+2026-03-11 14:19:51,802 | INFO | Data loaded successfully | Shape: (3900, 18)
+2026-03-11 14:19:51,802 | INFO | ========================================
+2026-03-11 14:19:51,802 | INFO | Initial Data Preview
+2026-03-11 14:19:51,802 | INFO | ========================================
+2026-03-11 14:19:51,823 | INFO | Initial Preview:    Customer ID  Age Gender Item Purchased  ... Promo Code Used  Previous Purchases Payment Method Frequency of Purchases
+0            1   55   Male         Blouse  ...             Yes                  14          Venmo            Fortnightly
+1            2   19   Male        Sweater  ...             Yes                   2           Cash            Fortnightly
+2            3   50   Male          Jeans  ...             Yes                  23    Credit Card                 Weekly
+3            4   21   Male        Sandals  ...             Yes                  49         PayPal                 Weekly
+4            5   45   Male         Blouse  ...             Yes                  31         PayPal               Annually
+5            6   46   Male       Sneakers  ...             Yes                  14          Venmo                 Weekly
+6            7   63   Male          Shirt  ...             Yes                  49           Cash              Quarterly
+7            8   27   Male         Shorts  ...             Yes                  19    Credit Card                 Weekly
+8            9   26   Male           Coat  ...             Yes                   8          Venmo               Annually
+9           10   57   Male        Handbag  ...             Yes                   4           Cash              Quarterly
+
+[10 rows x 18 columns]
+2026-03-11 14:19:51,823 | INFO | Data Cleaning Started
+2026-03-11 14:19:51,824 | INFO | Column cleaning completed
+2026-03-11 14:19:51,824 | INFO | Before: ['Customer ID', 'Age', 'Gender', 'Item Purchased', 'Category', 'Purchase Amount (USD)', 'Location', 'Size', 'Color', 'Season', 'Review Rating', 'Subscription Status', 'Shipping Type', 'Discount Applied', 'Promo Code Used', 'Previous Purchases', 'Payment Method', 'Frequency of Purchases']
+2026-03-11 14:19:51,824 | INFO | After : ['customer_id', 'age', 'gender', 'item_purchased', 'category', 'purchase_amount', 'location', 'size', 'color', 'season', 'review_rating', 'subscription_status', 'shipping_type', 'discount_applied', 'promo_code_used', 'previous_purchases', 'payment_method', 'frequency_of_purchases']
+2026-03-11 14:19:51,830 | INFO | review_rating nulls - Before: 37, After: 0
+2026-03-11 14:19:51,835 | INFO | Missing values handled successfully
+2026-03-11 14:19:51,837 | INFO | Age group feature created successfully
+2026-03-11 14:19:51,839 | INFO | Customer Segmentation feature created successfully
+2026-03-11 14:19:51,842 | INFO | 
+   previous_purchases customer_segmentation
+0                  14                 Loyal
+1                   2             Returning
+2                  23                 Loyal
+3                  49                 Loyal
+4                  31                 Loyal
+2026-03-11 14:19:52,582 | INFO | Data saved to database table: clean_customer_data
+2026-03-11 14:19:52,582 | INFO | Pipeline executed successfully
