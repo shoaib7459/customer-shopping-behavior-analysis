@@ -237,21 +237,23 @@ A multi-page Power BI dashboard was created to present business insights visuall
 ---
 
 ## 🔍 Key Insights
-### The analysis revealed several important insights:
-  - Clothing is the highest revenue generating category.
-  - Loyal customers contribute the majority of total revenue.
-  - Middle-aged customers represent the largest spending segment.
-  - Fall season generates the highest sales volume.
-  - Promotions have limited impact on increasing average purchase value.
-  - Footwear has the highest average customer satisfaction rating.
+### The analysis of 3,900 customers and $233K total revenue revealed the following:
+ - Clothing dominates revenue — generating $104K (45% of total), nearly 3x more than Footwear ($36K) and 5x more than Outerwear ($19K)
+ - Loyal customers are the business backbone — 3,116 loyal customers (79.9% of base) drive $186K in revenue, while 83 new customers generate only $5K total
+ - Middle-aged customers are the highest-value segment — contributing $89K in revenue, 35% more than the Young segment ($66K)
+ - Promotions have minimal ROI — promo codes are used in 43% of orders but reduce average order value by only $0.85, suggesting discounts are not driving incremental spend
+ - Seasonal demand is stable — Fall leads slightly at $60K but all seasons remain within a $4K range, meaning no single season requires emergency stock-up
+ - Footwear earns the highest satisfaction — rated 3.8/5 vs Clothing at 3.7/5, despite Clothing generating 3x more revenue — a retention opportunity
+ - Male customers drive 68% of revenue ($157K) — female customers are underrepresented at 32%, indicating a potential growth market
 
 ## 💡 Business Recommendations
-### Based on the analysis, the following recommendations can be made:
- - Focus marketing efforts on loyal customers to maximize retention.
- - Expand inventory for high-performing product categories like clothing.
- - Improve promotional strategies to increase their effectiveness.
- - Develop targeted campaigns for high-value age groups.
- - Increase marketing activity during lower-performing seasons.
+### Based on quantified insights from the analysis:
+ - Double down on loyal customer retention — 79.9% of revenue comes from loyal customers; a 5% increase in loyal customer retention could add ~$9K in revenue. Introduce a tiered loyalty rewards programme targeting the Middle-Aged segment (highest spenders at $89K)
+ - Run gender-targeted campaigns for female customers — females represent only 32% of revenue despite being 32% of the customer base; closing this gap with targeted  -  - Clothing and Accessories promotions could unlock significant revenue growth
+ - Redesign promotional strategy — promo codes currently lower order value by $0.85 with no measurable uplift; replace blanket discounts with minimum-spend offers (e.g. "spend $75, get 10% off") to protect margins while incentivising larger baskets
+ - Invest in Footwear marketing — highest satisfaction rating (3.8/5) but only $36K revenue (15%); satisfied customers are easiest to upsell — bundle Footwear with Clothing purchases during Fall campaigns
+ - Target Middle-Aged males in Fall — this intersection (highest-spending age group + highest-revenue gender + highest-revenue season) represents the single most valuable customer profile for concentrated marketing spend
+ - Build a female customer acquisition funnel — launch Spring and Summer campaigns (historically lower-revenue seasons) specifically targeting female shoppers with Accessories ($74K category) to grow revenue in both a weak season and underserved segment simultaneously
   
 ## 🚀 Future Improvements
 ### Potential future enhancements include:
