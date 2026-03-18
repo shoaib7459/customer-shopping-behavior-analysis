@@ -100,11 +100,6 @@ customer-behavior-analysis/
 │ └── customer_analysis.png
 │ └── executive_overview.png
 │ └── product_promotion.png
-│
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
 ```
 
 ## 🔄 Data Pipeline Workflow
